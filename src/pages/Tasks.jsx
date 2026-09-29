@@ -84,7 +84,7 @@ function Tasks(){
 
   return(
  
-    <div style={{ textAlign:"center" }} >
+    <div style={{ textAlign:"center" }}>
 
       <h2>Task Manager</h2>
 
