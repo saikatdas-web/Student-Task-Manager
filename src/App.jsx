@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 
 import Login from "./pages/Login";
@@ -8,7 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
 import Home from "./pages/Home";
 import Header from "./components/Header";
-//import Theme from "./components/Theme";
+
 
 
 
@@ -50,7 +50,7 @@ function App() {
     
     <p className="slide-text">
       
-      💻 This Site Is Officially Developed By "SAIKAT DAS" by Using React</p>
+    💻 This Site Is Officially Developed By "SAIKAT DAS" by Using React </p>
         
     </footer>} 
     

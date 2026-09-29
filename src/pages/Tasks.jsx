@@ -2,10 +2,8 @@ import {useState,useEffect} from "react";
 
 function Tasks(){
 
-  // const [tasks,setTasks] = useState([]);
-
-    const [tasks,setTasks] = useState(() => {
-    const savedTasks = localStorage.getItem("tasks");
+  const [tasks,setTasks] = useState(() => {
+  const savedTasks = localStorage.getItem("tasks");
     return savedTasks ? JSON.parse(savedTasks) : [];
    });
   
@@ -86,7 +84,7 @@ function Tasks(){
 
   return(
  
-    <div style={{textAlign:"center"}}>
+    <div style={{ textAlign:"center" }} >
 
       <h2>Task Manager</h2>
 

@@ -1,9 +1,7 @@
-import React from "react";
-
 
 function About() {
   return (
-      <div style={{padding:"40px", textAlign:"center"}}>
+      <div style={{ padding:"40px", textAlign:"center" }}>
 
       <h1>About Student Task Manager</h1>
 
@@ -13,7 +11,7 @@ function About() {
         width="200"
       />
 
-      <p style={{maxWidth:"700px", margin:"20px auto", fontSize:"18px"}}>
+      <p style={{ maxWidth:"700px", margin:"20px auto", fontSize:"18px" }}>
         "Student Task Manager is a simple and efficient web application
         designed to help students organize their daily academic tasks.
         The app allows users to add tasks, view task lists, mark the task as completed task, edit task and delete

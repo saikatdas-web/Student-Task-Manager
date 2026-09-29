@@ -21,7 +21,7 @@ function Header({ setIsLoggedIn, theme, setTheme }) {
 
      <div style={{display:"flex",justifyContent:"space-between",background:"#ddd",padding:"10px"}}>
 
-      <h2>Student Task Manager</h2>
+      <h2> Student Task Manager </h2>
 
       <div>
 
